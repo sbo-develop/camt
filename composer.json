@@ -1,6 +1,6 @@
 {
-    "name": "genkgo/camt",
-    "description": "Library to read CAMT files (XML containing bank statements).",
+    "name": "sbo-develop/camt",
+    "description": "Library to read CAMT files (XML containing bank statements). forked from genkgo/camt",
     "license": "MIT",
     "scripts": {
         "check": [
