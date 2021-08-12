@@ -17,7 +17,7 @@ class Date implements DateDecoderInterface
     public function decode(string $date): DateTimeImmutable
     {
         if ($this->format === null) {
-            $result = new DateTimeImmutable($date);
+            $result = new DateTimeImmutable(substr($date,0,19));
         } else {
             $result = DateTimeImmutable::createFromFormat($this->format, $date);
         }
